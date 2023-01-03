@@ -5,6 +5,8 @@ let input;
 // B, Y - Paper, 2 points
 // C, Z - Scissors, 3 points
 // Win - 6 points, Draw - 3 points, Loose - 0 points
+
+// Rules for part 1
 const rules = {
   'A': {
     'X': 4, // Draw
@@ -23,6 +25,7 @@ const rules = {
   },
 }
 
+// Rules for part 2
 const rules2 = {
   'A': {
     'X': 3, // Loose
@@ -63,6 +66,9 @@ fs.readFile('./input.txt', { encoding: 'utf8' }, (err, data) => {
     score2 += rules2[round[0]][round[2]];
   })
 
+  // Score for part 1
   console.log(score);
+
+  // Score for part 2
   console.log(score2);
 })
