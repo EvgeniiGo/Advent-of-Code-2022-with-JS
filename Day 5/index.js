@@ -47,4 +47,6 @@ fs.readFile('./input.txt', { encoding: 'utf8' }, (err, data) => {
 
   console.log(counter);
   console.log(counter2);
+
+  // Part 2
 })
