@@ -15,7 +15,6 @@ fs.readFile('./input.txt', { encoding: 'utf8' }, (err, data) => {
   // console.log(input);
 
   counter = 0;
-
   function checkVisibility(height, line, column) {
     // Check top
     let isLargest = true;
