@@ -1,6 +1,4 @@
 // solution for part 1 is not mine
-
-
 const fs = require('fs');
 let input;
 

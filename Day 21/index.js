@@ -1,12 +1,6 @@
 const fs = require('fs');
 let input;
 
-class Int {
-  constructor(value) {
-    this.value = value;
-  }
-}
-
 // Reading input data from file
 fs.readFile('./input.txt', { encoding: 'utf8' }, (err, data) => {
   if (err) {
